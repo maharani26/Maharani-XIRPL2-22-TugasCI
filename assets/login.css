@@ -1,0 +1,62 @@
+body, header, nav, div, ul   {
+  padding: 0;
+  margin: 0;
+
+}
+.wrapper{
+  width: 100%;
+  height: 700px;
+  background-image: url(img/pantai.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.sidenav a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+
+  }
+  .sidenav a:hover {
+    color: black;
+    transition: 0.9s;
+    background-color: white;
+  }
+  .sidenav {
+    list-style: none;
+    background: rgba(9, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  li{
+      display: inline-block;
+
+  }
+
+  .logo {
+    float: right;
+    padding-right: 15px;
+
+  }
+  .logo h3 {
+    float: right;
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: amita;
+  }
+.kotak {
+  display: grid;
+  grid-template-columns: 1fr  ;
+  width:500px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+
+
+}
